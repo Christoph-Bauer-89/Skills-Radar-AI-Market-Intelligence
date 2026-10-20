@@ -37,4 +37,43 @@ Das System erzeugt tagesaktuelle Marktdaten für definierte Zielrollen, struktur
 ## 🔄 Projekt-Evolution & Architektur-Entscheidung
 
 ### 🚫 1. Die Ausgangslage: Der semi-automatisierte API-Ansatz
-In der ersten Projektphase sollte die Pipeline vollautomat
+In der ersten Projektphase sollte die Pipeline vollautomatisch über die öffentliche Schnittstelle der Bundesagentur für Arbeit tagesaktuelle Stellenanzeigen für die Zielrollen abrufen. 
+- **Das Problem:** Große Jobbörsen-Plattformen sichern ihre Systeme durch strenge Web Application Firewalls ab. Selbst mit vollständig simulierten Browser-Headern wurden die automatisierten Abfragen rigoros mit einem `403 Forbidden`-Statuscode blockiert.
+
+### 💡 2. Der architektonische Pivot: Synthetische Datengenerierung
+Anstatt an einem fehleranfälligen Scraping-Workflow festzuhalten, wurde die Architektur grundlegend optimiert, um echte, fehlerfreie Automatisierung zu garantieren.
+- **Lösung:** Implementierung eines hybriden, KI-gestützten Generierungs- und Fallback-Moduls über die OpenAI API (`GPT-4o-mini`) auf Basis realer Marktparameter.
+- **Mehrwert:**
+  * **100%ige Pipeline-Stabilität:** Externe Ausfallrisiken und Firewall-Blockaden wurden eliminiert.
+  * **Perfekte Datenkonsistenz:** Datensätze entsprechen exakt den Anforderungen des Sternschemas (`dim_jobs` und `fact_skills`).
+  * **Echte "Zero-Touch"-Automatisierung:** Kontinuierliche Bereitstellung sauberer Daten für das Power BI Dashboard ohne manuellen Eingriff.
+
+---
+
+## 📈 Business Value & Impact
+
+- **Vollautomatisierung:** Reduzierung des manuellen Aufdatierungsaufwands von Stunden auf 0 Minuten (True "Zero-Touch" Pipeline).
+- **Markttransparenz:** Ermöglicht datenbasierte Entscheidungen für die eigene Upskilling-Strategie und passgenaue Bewerbungsvorbereitung.
+- **Portfolio-Reife:** Demonstration fundierter Kenntnisse in Data Engineering, API-Handling, Resilienz-Management, Prompt Engineering, Datenmodellierung und Dashboarding.
+
+---
+
+## 🖼️ Dashboard Preview
+
+![Power BI Dashboard Overview](dashboard.png)
+
+---
+
+## 📂 Repository-Struktur
+
+```text
+├── 🐍 ai_job_full_auto.py         # Main Automation Pipeline Script
+├── 🐍 ai_job_scraper.py           # Historical API Extraction Script
+├── 📊 Skill_Radar.pbix            # Power BI Data Model & Dashboard
+├── 📄 dim_jobs.csv                # Dimension Table (Job Listings & Metadata)
+├── 📄 fact_skills.csv             # Fact Table (Extracted Skills & Categories)
+├── 📄 JSON_prompt_daten.csv       # Prompting & Schema Reference Data
+├── ⚙️ run_radar.bat               # Windows Task Scheduler Execution Batch
+├── 🖼️ dashboard.png              # Power BI Dashboard Visual Asset
+├── 🖼️ project-file-structure.png  # Directory & File Structure Asset
+└── 🖼️ python-script-terminal-output.png # Console Log Asset
