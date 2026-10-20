@@ -19,8 +19,6 @@ Das System erzeugt tagesaktuelle Marktdaten für definierte Zielrollen, struktur
 - **Data Modeling & Storage:** Relationales Sternschema (`dim_jobs` & `fact_skills` via CSV-Append-Logik)
 - **Business Intelligence & Visualization:** Power BI Desktop (DAX, Power Query)
 
-![Projekt Dateistruktur](project-file-structure.png)
-
 ---
 
 ## ⚙️ Architektur & Funktionsweise (Der Pipeline-Flow)
