@@ -70,12 +70,17 @@ Anstatt an einem fehleranfälligen Scraping-Workflow festzuhalten, wurde die Arc
 ## 📂 Repository-Struktur
 
 ```text
-├── ai_job_full_auto.py         # Haupt-Automations-Skript
-├── ai_job_scraper.py           # Historisches API-Extraktions-Skript
-├── Skill_Radar.pbix            # Power BI Datenmodell & Dashboard
-├── dim_jobs.csv                # Dimensionstabelle (Stellenanzeigen & Metadaten)
-├── fact_skills.csv             # Faktentabelle (Extrahiertes Skill-Mapping)
-├── run_radar.bat               # Windows Task Scheduler Batch-Datei
-├── dashboard.png               # Power BI Dashboard Visual Asset
-├── python-script-terminal-output.png # Konsolen-Log Visual Asset
-└── README.md                   # Projektdokumentation
+├── scripts/
+│   ├── ai_job_full_auto.py         # Haupt-Automations-Skript
+│   └── ai_job_scraper.py           # Historisches API-Extraktions-Skript
+├── data/
+│   ├── dim_jobs.csv                # Dimensionstabelle (Stellen & Metadaten)
+│   ├── fact_skills.csv             # Faktentabelle (Extrahierte Skills)
+│   └── ai_prompt_examples.csv      # Referenzdaten & Prompt-Beispiele
+├── dashboard/
+│   └── Skill_Radar.pbix            # Power BI Datenmodell & Dashboard
+├── assets/
+│   ├── dashboard.png               # Power BI Dashboard Visual Asset
+│   └── python-script-terminal-output.png # Konsolen-Log Visual Asset
+├── run_radar.bat                   # Windows Task Scheduler Batch-Datei
+└── README.md                       # Projektdokumentation
