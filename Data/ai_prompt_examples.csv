@@ -1,0 +1,390 @@
+JSON prompt:
+
+{
+  "job_id": "JOB-001",
+  "title": "Senior Data & AI Strategist",
+  "company": "TechCorp GmbH",
+  "location": "Leipzig",
+  "employment_type": "Vollzeit",
+  "seniority_level": "Senior",
+  "categories": {
+    "hard_skills": ["Python", "SQL", "Data Modeling"],
+    "ai_tools": ["LangChain", "OpenAI API", "Power BI AI Copilot"],
+    "methodologies": ["Agile", "Scrum", "Prompt Engineering"],
+    "soft_skills": ["Stakeholder Management", "Strategic Thinking"]
+  },
+  "required_experience_years": 3,
+  "match_score_personal": 85
+}
+
+
+
+{
+  "job_id": "JOB-001",
+  "job_title": "Consultant BI & Analytics (m/w/d)",
+  "company_name": "make IT (eins-Gruppe)",
+  "location": "Unbekannt",
+  "work_model": "Hybrid",
+  "employment_type": "Vollzeit / Teilzeit",
+  "seniority_level": "Unbekannt",
+  "core_role_category": "Data & BI",
+  "extracted_skills": {
+    "business_analysis": [
+      "Anforderungsmanagement",
+      "Anforderungsanalyse",
+      "Stakeholder Management",
+      "Schnittstellenkommunikation"
+    ],
+    "data_and_bi": [
+      "SAP Analytics Cloud (SAC)",
+      "SAP BW/BW/4HANA",
+      "Reporting",
+      "Dashboards",
+      "Datenmodelle",
+      "Data Warehouses",
+      "Datenqualität"
+    ],
+    "ai_and_automation": [],
+    "methodologies": [
+      "Projektmanagement"
+    ]
+  },
+  "required_experience_years": null,
+  "key_responsibilities_summary": "Aufnahme, Analyse und Priorisierung von Fachbereichsanforderungen sowie Konzeption und kontinuierliche Weiterentwicklung von BI- und Reporting-Lösungen (insbesondere in der SAP Analytics Cloud). Agieren als zentrale Schnittstelle zwischen IT und Fachbereichen."
+}
+---
+{
+  "job_id": "JOB-002",
+  "job_title": "Business Analyst",
+  "company_name": "23FINANCE",
+  "location": "Remote",
+  "work_model": "Hybrid",
+  "employment_type": "Unbekannt",
+  "seniority_level": "Junior",
+  "core_role_category": "Business Analysis",
+  "extracted_skills": {
+    "business_analysis": [
+      "Anforderungsanalyse",
+      "Prozessgestaltung",
+      "Stakeholder Management",
+      "Kommunikationsfähigkeiten"
+    ],
+    "data_and_bi": [
+      "SQL",
+      "Datenmodellierung",
+      "Tableau",
+      "MS Power BI",
+      "Datenanalyse",
+      "Datenbanken",
+      "ETL/ELT"
+    ],
+    "ai_and_automation": [
+      "KI-Tools",
+      "Codex",
+      "Claude Code",
+      "Python",
+      "R",
+      "AI Act"
+    ],
+    "methodologies": [
+      "Consulting"
+    ]
+  },
+  "required_experience_years": null,
+  "key_responsibilities_summary": "Erhebung, Analyse und Zerlegung fachlicher Anforderungen für Finanzdienstleister in regulatorischen und transformativen Projekten. Auswertung von Daten aus unterschiedlichen Quellen zur Verknüpfung von Theorie und Praxis."
+}
+
+{
+  "job_id": "JOB-003",
+  "job_title": "Business Analyst / Data Analyst / BI-Mitarbeiter",
+  "company_name": "GP Günter Papenburg AG (GP Gruppe)",
+  "location": "Unbekannt",
+  "work_model": "Hybrid",
+  "employment_type": "Unbekannt",
+  "seniority_level": "Mid-Level",
+  "core_role_category": "Data & BI",
+  "extracted_skills": {
+    "business_analysis": [
+      "Anforderungsanalyse",
+      "Prozessanalyse",
+      "Stakeholder Management",
+      "Geschäftsprozesse"
+    ],
+    "data_and_bi": [
+      "Power BI",
+      "Datenmodellierung",
+      "ETL-Prozesse",
+      "Data Warehousing",
+      "Datenqualität",
+      "BI-Strategie",
+      "Datenanalyse"
+    ],
+    "ai_and_automation": [],
+    "methodologies": []
+  },
+  "required_experience_years": null,
+  "key_responsibilities_summary": "Analyse, Aufbereitung und Interpretation von Unternehmens- und Prozessdaten sowie Erarbeitung von Anforderungen in enger Abstimmung mit Fachbereichen und IT. Verantwortung für die Datenqualität sowie Mitwirkung an BI-Prozessen, Data Warehouse-Architektur und BI-Strategie."
+}
+
+{
+  "job_id": "JOB-004",
+  "job_title": "ETL & Data Analyst / Consultant (m/w/d)",
+  "company_name": "KPMG",
+  "location": "Unbekannt",
+  "work_model": "Hybrid",
+  "employment_type": "Vollzeit",
+  "seniority_level": "Mid-Level",
+  "core_role_category": "Data & BI",
+  "extracted_skills": {
+    "business_analysis": [
+      "Anforderungsanalyse",
+      "Prozessdokumentation",
+      "Schnittstellenkommunikation"
+    ],
+    "data_and_bi": [
+      "SQL",
+      "ETL",
+      "Datenmodellierung",
+      "ERP-Systeme",
+      "SAP",
+      "DATEV",
+      "Navision",
+      "Databricks",
+      "Reporting",
+      "Dashboards",
+      "Datenqualität"
+    ],
+    "ai_and_automation": [
+      "Python",
+      "PowerShell",
+      "Skripting"
+    ],
+    "methodologies": []
+  },
+  "required_experience_years": 3,
+  "key_responsibilities_summary": "Aufbereitung, Prüfung und Strukturierung von Finanz- und ERP-Daten aus Systemen wie SAP oder DATEV zur Sicherstellung verlässlicher Analysedaten. Eigenständige Entwicklung und Optimierung von ETL-Pipelines sowie Erstellung und Anpassung von SQL-Skripten und Sonderauswertungen."
+}
+{
+  "job_id": "JOB-005",
+  "job_title": "Business Analyst / IT Process Manager (m/w/d) – Digitalization & AI",
+  "company_name": "VOLTARIS GmbH",
+  "location": "Maxdorf, Merzig",
+  "work_model": "Unbekannt",
+  "employment_type": "Unbekannt",
+  "seniority_level": "Mid-Level",
+  "core_role_category": "AI & Consulting",
+  "extracted_skills": {
+    "business_analysis": [
+      "Anforderungsanalyse",
+      "Prozessmodellierung",
+      "Prozessoptimierung",
+      "BPMN",
+      "UML",
+      "Anforderungsmanagement",
+      "Prozessdigitalisierung",
+      "SLA-Definitionen"
+    ],
+    "data_and_bi": [
+      "Prozesskennzahlen"
+    ],
+    "ai_and_automation": [
+      "KI-Anwendungsfälle",
+      "KI-Richtlinien",
+      "Automatisierung",
+      "KI-Ansätze"
+    ],
+    "methodologies": [
+      "Testmanagement",
+      "Qualitätssicherung"
+    ]
+  },
+  "required_experience_years": null,
+  "key_responsibilities_summary": "Analyse, Optimierung und Digitalisierung von Geschäfts- und IT-Prozessen sowie Integration von KI-Ansätzen und -Richtlinien zur Effizienzsteigerung. Spezifikation fachlicher sowie technischer Anforderungen an der Schnittstelle zwischen Fachbereichen und IT inklusive Durchführung von Prozessabnahmeprüfungen."
+
+{
+  "job_id": "JOB-006",
+  "job_title": "Business Analyst (m/w/d)",
+  "company_name": "eg factory",
+  "location": "Unbekannt",
+  "work_model": "Hybrid",
+  "employment_type": "Unbekannt",
+  "seniority_level": "Mid-Level",
+  "core_role_category": "Business Analysis",
+  "extracted_skills": {
+    "business_analysis": [
+      "Anforderungsmanagement",
+      "Requirements Engineering",
+      "Prozessmanagement",
+      "User Stories",
+      "Konzeption",
+      "Stakeholder Management"
+    ],
+    "data_and_bi": [],
+    "ai_and_automation": [],
+    "methodologies": [
+      "Agile Methoden",
+      "Projektmanagement",
+      "Jira",
+      "Confluence",
+      "Qualitätssicherung",
+      "Softwaretests"
+    ]
+  },
+  "required_experience_years": null,
+  "key_responsibilities_summary": "Analyse, Dokumentation und Konzeption fachlicher Anforderungen (z.B. als User Stories) zur stetigen Weiterentwicklung von Softwareprodukten in der Energiewirtschaft. Begleitung der technischen Umsetzung sowie der zugehörigen Qualitätssicherung und Tests in einem agilen Team."
+}
+}
+
+{
+  "job_id": "JOB-007",
+  "job_title": "SAP Business Analyst (m / w / d) Inhouse",
+  "company_name": "Starrag Group",
+  "location": "Chemnitz",
+  "work_model": "Vor-Ort",
+  "employment_type": "Vollzeit",
+  "seniority_level": "Senior",
+  "core_role_category": "Data & BI",
+  "extracted_skills": {
+    "business_analysis": [
+      "Anforderungsanalyse",
+      "Prozessoptimierung",
+      "Projektmanagement",
+      "Aufwandsschätzungen",
+      "Template-Entwicklung",
+      "Rollout"
+    ],
+    "data_and_bi": [
+      "SAP CO",
+      "SAP Analytics Cloud (SAC)",
+      "SAP Datasphere",
+      "Business Intelligence",
+      "CO-PA",
+      "Reporting",
+      "Planung",
+      "Budgetierung",
+      "Forecasting",
+      "Rechnungswesen"
+    ],
+    "ai_and_automation": [
+      "ABAP",
+      "User-Exits"
+    ],
+    "methodologies": [
+      "Projektarbeit über mehrere Projektlebenszyklen"
+    ]
+  },
+  "required_experience_years": 4,
+  "key_responsibilities_summary": "Gemeinsame Erarbeitung von SAP CO- und BI-Lösungen mit dem Controlling-Bereich sowie Betreuung bei Prozess- und Systemoptimierungen. Operatives Führen des fachlichen Projektteams und Erstellung von Aufwandsschätzungen im Rahmen konzernweiter SAP-Projekte."
+}
+
+{
+  "job_id": "JOB-008",
+  "job_title": "Financial Analyst (all genders)",
+  "company_name": "UNION TANK Eckstein GmbH & Co. KG (UTA Edenred)",
+  "location": "Kleinostheim",
+  "work_model": "Hybrid",
+  "employment_type": "Vollzeit",
+  "seniority_level": "Mid-Level",
+  "core_role_category": "Data & BI",
+  "extracted_skills": {
+    "business_analysis": [
+      "Ad-hoc-Analysen",
+      "Schnittstellenfunktion",
+      "Finanzsparringspartner"
+    ],
+    "data_and_bi": [
+      "Excel",
+      "Cognos TM1",
+      "Oracle HFM",
+      "Reporting",
+      "Finanzberichterstattung",
+      "Unternehmenscontrolling",
+      "Budgetierung",
+      "HGB",
+      "IFRS",
+      "CSR-Reporting"
+    ],
+    "ai_and_automation": [],
+    "methodologies": []
+  },
+  "required_experience_years": null,
+  "key_responsibilities_summary": "Erstellung, Optimierung und Verfeinerung monatlicher Berichte sowie Analysetools für das Top-Management, Muttergesellschaft und Fachabteilungen. Übernahme der Verantwortung für Budget-Uploads in Finanzsysteme und Agieren als zentrale Schnittstelle zwischen Controlling und Buchhaltung."
+}
+
+{
+  "job_id": "JOB-009",
+  "job_title": "Technical Business Analyst (w/m/d) – Dynamics 365 & Power BI",
+  "company_name": "FIO Systems AG (Hypoport SE)",
+  "location": "Chemnitz, Leipzig",
+  "work_model": "Hybrid",
+  "employment_type": "Vollzeit",
+  "seniority_level": "Mid-Level",
+  "core_role_category": "Data & BI",
+  "extracted_skills": {
+    "business_analysis": [
+      "Anforderungsmanagement",
+      "Geschäftsprozessanalyse",
+      "Prozessverbesserung",
+      "Technische Konzeption",
+      "Geschäftsanforderungen"
+    ],
+    "data_and_bi": [
+      "Power BI",
+      "SQL",
+      "DAX",
+      "Datenmodellierung",
+      "Datenvisualisierung",
+      "Microsoft Dynamics 365",
+      "Reporting",
+      "Dashboards"
+    ],
+    "ai_and_automation": [
+      "Power Automate",
+      "Copilot",
+      "ChatGPT",
+      "Python",
+      "KI & Automatisierung",
+      ".NET"
+    ],
+    "methodologies": [
+      "Backlog Management",
+      "Troubleshooting"
+    ]
+  },
+  "required_experience_years": null,
+  "key_responsibilities_summary": "Weiterentwicklung der KPI-, Reporting- und Dashboard-Landschaft sowie Aufnahme und Übersetzung fachlicher Anforderungen aus dem Vertrieb und Management in technische Lösungen. Eigenverantwortliche Steuerung und Anpassung der Microsoft-Dynamics-365-Landschaft inklusive Erstellung von Power-Automate-Flows und Reports."
+}
+
+{
+  "job_id": "JOB-010",
+  "job_title": "Consultant BI",
+  "company_name": "make IT GmbH",
+  "location": "Chemnitz",
+  "work_model": "Unbekannt",
+  "employment_type": "Vollzeit",
+  "seniority_level": "Mid-Level",
+  "core_role_category": "Data & BI",
+  "extracted_skills": {
+    "business_analysis": [
+      "Anforderungsmanagement",
+      "Anforderungsanalyse",
+      "Stakeholder Management",
+      "Schnittstellenkommunikation"
+    ],
+    "data_and_bi": [
+      "SAP Analytics Cloud (SAC)",
+      "SAP BW/BW/4HANA",
+      "Reporting",
+      "Dashboards",
+      "Datenmodelle",
+      "Data Warehouses",
+      "Datenqualität"
+    ],
+    "ai_and_automation": [],
+    "methodologies": [
+      "Projektmanagement"
+    ]
+  },
+  "required_experience_years": null,
+  "key_responsibilities_summary": "Aufnahme, Analyse und Priorisierung von Fachbereichsanforderungen sowie Konzeption und Entwicklung passgenauer BI- und Reporting-Lösungen in der SAP Analytics Cloud. Agieren als Schnittstelle zwischen Fachbereichen und IT zur kontinuierlichen Weiterentwicklung der Reporting-Landschaft."
+}

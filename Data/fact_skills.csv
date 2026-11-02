@@ -1,0 +1,209 @@
+job_id;skill_category;skill_name
+JOB-001;Business Analysis;Anforderungsmanagement
+JOB-001;Business Analysis;Anforderungsanalyse
+JOB-001;Business Analysis;Stakeholder Management
+JOB-001;Business Analysis;Schnittstellenkommunikation
+JOB-001;Data & BI;SAP Analytics Cloud (SAC)
+JOB-001;Data & BI;SAP BW/BW/4HANA
+JOB-001;Data & BI;Reporting
+JOB-001;Data & BI;Dashboards
+JOB-001;Data & BI;Datenmodelle
+JOB-001;Data & BI;Data Warehouses
+JOB-001;Data & BI;Datenqualität
+JOB-001;Methodologies;Projektmanagement
+JOB-002;Business Analysis;Anforderungsanalyse
+JOB-002;Business Analysis;Prozessgestaltung
+JOB-002;Business Analysis;Stakeholder Management
+JOB-002;Business Analysis;Kommunikationsfähigkeiten
+JOB-002;Data & BI;SQL
+JOB-002;Data & BI;Datenmodellierung
+JOB-002;Data & BI;Tableau
+JOB-002;Data & BI;MS Power BI
+JOB-002;Data & BI;Datenanalyse
+JOB-002;Data & BI;Datenbanken
+JOB-002;Data & BI;ETL/ELT
+JOB-002;AI & Automation;KI-Tools
+JOB-002;AI & Automation;Codex
+JOB-002;AI & Automation;Claude Code
+JOB-002;AI & Automation;Python
+JOB-002;AI & Automation;R
+JOB-002;AI & Automation;AI Act
+JOB-002;Methodologies;Consulting
+JOB-003;Business Analysis;Anforderungsanalyse
+JOB-003;Business Analysis;Prozessanalyse
+JOB-003;Business Analysis;Stakeholder Management
+JOB-003;Business Analysis;Geschäftsprozesse
+JOB-003;Data & BI;Power BI
+JOB-003;Data & BI;Datenmodellierung
+JOB-003;Data & BI;ETL-Prozesse
+JOB-003;Data & BI;Data Warehousing
+JOB-003;Data & BI;Datenqualität
+JOB-003;Data & BI;BI-Strategie
+JOB-003;Data & BI;Datenanalyse
+JOB-004;Business Analysis;Anforderungsanalyse
+JOB-004;Business Analysis;Prozessdokumentation
+JOB-004;Business Analysis;Schnittstellenkommunikation
+JOB-004;Data & BI;SQL
+JOB-004;Data & BI;ETL
+JOB-004;Data & BI;Datenmodellierung
+JOB-004;Data & BI;ERP-Systeme
+JOB-004;Data & BI;SAP
+JOB-004;Data & BI;DATEV
+JOB-004;Data & BI;Navision
+JOB-004;Data & BI;Databricks
+JOB-004;Data & BI;Reporting
+JOB-004;Data & BI;Dashboards
+JOB-004;Data & BI;Datenqualität
+JOB-004;AI & Automation;Python
+JOB-004;AI & Automation;PowerShell
+JOB-004;AI & Automation;Skripting
+JOB-005;Business Analysis;Anforderungsanalyse
+JOB-005;Business Analysis;Prozessmodellierung
+JOB-005;Business Analysis;Prozessoptimierung
+JOB-005;Business Analysis;BPMN
+JOB-005;Business Analysis;UML
+JOB-005;Business Analysis;Anforderungsmanagement
+JOB-005;Business Analysis;Prozessdigitalisierung
+JOB-005;Business Analysis;SLA-Definitionen
+JOB-005;Data & BI;Prozesskennzahlen
+JOB-005;AI & Automation;KI-Anwendungsfälle
+JOB-005;AI & Automation;KI-Richtlinien
+JOB-005;AI & Automation;Automatisierung
+JOB-005;AI & Automation;KI-Ansätze
+JOB-005;Methodologies;Testmanagement
+JOB-005;Methodologies;Qualitätssicherung
+JOB-006;Business Analysis;Anforderungsmanagement
+JOB-006;Business Analysis;Requirements Engineering
+JOB-006;Business Analysis;Prozessmanagement
+JOB-006;Business Analysis;User Stories
+JOB-006;Business Analysis;Konzeption
+JOB-006;Business Analysis;Stakeholder Management
+JOB-006;Methodologies;Agile Methoden
+JOB-006;Methodologies;Projektmanagement
+JOB-006;Methodologies;Jira
+JOB-006;Methodologies;Confluence
+JOB-006;Methodologies;Qualitätssicherung
+JOB-006;Methodologies;Softwaretests
+JOB-007;Business Analysis;Anforderungsanalyse
+JOB-007;Business Analysis;Prozessoptimierung
+JOB-007;Business Analysis;Projektmanagement
+JOB-007;Business Analysis;Aufwandsschätzungen
+JOB-007;Business Analysis;Template-Entwicklung
+JOB-007;Business Analysis;Rollout
+JOB-007;Data & BI;SAP CO
+JOB-007;Data & BI;SAP Analytics Cloud (SAC)
+JOB-007;Data & BI;SAP Datasphere
+JOB-007;Data & BI;Business Intelligence
+JOB-007;Data & BI;CO-PA
+JOB-007;Data & BI;Reporting
+JOB-007;Data & BI;Planung
+JOB-007;Data & BI;Budgetierung
+JOB-007;Data & BI;Forecasting
+JOB-007;Data & BI;Rechnungswesen
+JOB-007;AI & Automation;ABAP
+JOB-007;AI & Automation;User-Exits
+JOB-007;Methodologies;Projektarbeit
+JOB-008;Business Analysis;Ad-hoc-Analysen
+JOB-008;Business Analysis;Schnittstellenfunktion
+JOB-008;Business Analysis;Finanzsparringspartner
+JOB-008;Data & BI;Excel
+JOB-008;Data & BI;Cognos TM1
+JOB-008;Data & BI;Oracle HFM
+JOB-008;Data & BI;Reporting
+JOB-008;Data & BI;Finanzberichterstattung
+JOB-008;Data & BI;Unternehmenscontrolling
+JOB-008;Data & BI;Budgetierung
+JOB-008;Data & BI;HGB
+JOB-008;Data & BI;IFRS
+JOB-008;Data & BI;CSR-Reporting
+JOB-009;Business Analysis;Anforderungsmanagement
+JOB-009;Business Analysis;Geschäftsprozessanalyse
+JOB-009;Business Analysis;Prozessverbesserung
+JOB-009;Business Analysis;Technische Konzeption
+JOB-009;Business Analysis;Geschäftsanforderungen
+JOB-009;Data & BI;Power BI
+JOB-009;Data & BI;SQL
+JOB-009;Data & BI;DAX
+JOB-009;Data & BI;Datenmodellierung
+JOB-009;Data & BI;Datenvisualisierung
+JOB-009;Data & BI;Microsoft Dynamics 365
+JOB-009;Data & BI;Reporting
+JOB-009;Data & BI;Dashboards
+JOB-009;AI & Automation;Power Automate
+JOB-009;AI & Automation;Copilot
+JOB-009;AI & Automation;ChatGPT
+JOB-009;AI & Automation;Python
+JOB-009;AI & Automation;KI & Automatisierung
+JOB-009;AI & Automation;.NET
+JOB-009;Methodologies;Backlog Management
+JOB-009;Methodologies;Troubleshooting
+JOB-010;Business Analysis;Anforderungsmanagement
+JOB-010;Business Analysis;Anforderungsanalyse
+JOB-010;Business Analysis;Stakeholder Management
+JOB-010;Business Analysis;Schnittstellenkommunikation
+JOB-010;Data & BI;SAP Analytics Cloud (SAC)
+JOB-010;Data & BI;SAP BW/BW/4HANA
+JOB-010;Data & BI;Reporting
+JOB-010;Data & BI;Dashboards
+JOB-010;Data & BI;Datenmodelle
+JOB-010;Data & BI;Data Warehouses
+JOB-010;Data & BI;Datenqualität
+JOB-010;Methodologies;ProjektmanagementJOB-011;Business Analysis;Requirements Engineering
+JOB-011;Business Analysis;User Stories
+JOB-011;Business Analysis;Fachkonzepte
+JOB-011;Business Analysis;Anforderungsworkshops
+JOB-011;AI & Automation;KI-Tools
+JOB-011;AI & Automation;Claude
+JOB-011;AI & Automation;ChatGPT
+JOB-011;Methodologies;Agile Methoden
+JOB-011;Methodologies;Scrum
+JOB-011;Methodologies;Jira
+JOB-011;Methodologies;Confluence
+JOB-012;Business Analysis;Prozessanalyse
+JOB-012;Business Analysis;Anforderungsmanagement
+JOB-012;Data & BI;Datenvisualisierung
+JOB-012;Data & BI;SQL
+JOB-012;AI & Automation;Machine Learning Grundlagen
+JOB-012;AI & Automation;Automatisierungstools
+JOB-012;Methodologies;Agile Methoden
+JOB-012;Methodologies;Wasserfallmodell
+JOB-013;Business Analysis;Anforderungsanalyse
+JOB-013;Business Analysis;Stakeholder-Management
+JOB-013;Data & BI;Datenmodellierung
+JOB-013;Data & BI;Datenvisualisierung
+JOB-013;AI & Automation;Automatisierung von Prozessen
+JOB-013;AI & Automation;KI-Integration
+JOB-013;Methodologies;Agile Methoden
+JOB-013;Methodologies;Wasserfallmodell
+JOB-014;Business Analysis;Anforderungsanalyse
+JOB-014;Business Analysis;Prozessoptimierung
+JOB-014;Data & BI;Datenvisualisierung
+JOB-014;Data & BI;Datenmodellierung
+JOB-014;AI & Automation;Machine Learning
+JOB-014;AI & Automation;Automatisierung von Geschäftsprozessen
+JOB-014;Methodologies;Agile Methoden
+JOB-014;Methodologies;Scrum
+JOB-015;Business Analysis;Prozessanalyse
+JOB-015;Business Analysis;Anforderungsmanagement
+JOB-015;Data & BI;Datenvisualisierung
+JOB-015;Data & BI;SQL
+JOB-015;AI & Automation;Robotic Process Automation (RPA)
+JOB-015;AI & Automation;Machine Learning Grundlagen
+JOB-015;Methodologies;Agile Methoden
+JOB-015;Methodologies;Lean Management
+JOB-016;Business Analysis;Anforderungsanalyse
+JOB-016;Business Analysis;Prozessoptimierung
+JOB-016;Data & BI;Datenvisualisierung
+JOB-016;Data & BI;Datenmodellierung
+JOB-016;AI & Automation;Machine Learning Konzepte
+JOB-016;AI & Automation;Automatisierungstechniken
+JOB-016;Methodologies;Agile Methoden
+JOB-016;Methodologies;Wasserfallmodell
+JOB-017;Business Analysis;Anforderungsanalyse
+JOB-017;Business Analysis;Prozessoptimierung
+JOB-017;Data & BI;Datenvisualisierung
+JOB-017;Data & BI;Datenmodelling
+JOB-017;AI & Automation;Machine Learning Grundlagen
+JOB-017;AI & Automation;Automatisierung von Datenprozessen
+JOB-017;Methodologies;Agile Methoden
+JOB-017;Methodologies;Scrum
