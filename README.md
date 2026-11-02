@@ -63,7 +63,7 @@ Anstatt an einem fehleranfälligen Scraping-Workflow festzuhalten, wurde die Arc
 
 ## 📊 Dashboard Preview
 
-![Dashboard Preview](assets/dashboard.png)
+![Dashboard Preview](Assets/dashboard.png)
 
 ---
 
