@@ -4,10 +4,10 @@
 
 ---
 
-## 🛠️ Development Methodology & AI Transparency
-* **Architecture & Data Modeling:** Designed & implemented by Christoph Bauer (Business Analytics / Data Architect).
-* **Engineering Approach:** **AI-Assisted Development** (leveraging LLMs to write and refine Python automation scripts, JSON parsing, and pandas data manipulation).
-* **Core Competency:** Data Engineering, Star Schema Design, Power BI Analytics, and Automated Workflow Orchestration.
+## 🛠️ Entwicklungsmethodik & KI-Transparenz
+* **Architektur & Datenmodellierung:** Eigenständig konzipiert und umgesetzt von Christoph Bauer (Business Analytics / Data Architect).
+* **Entwicklungsansatz:** **AI-Assisted Development** (Nutzung von LLMs zur Erstellung und Verfeinerung der Python-Automatisierungsskripte, JSON-Parsing und Pandas-Datenverarbeitung).
+* **Kernkompetenz:** Data Engineering, Sternschema-Design, Power BI Analytics und automatisierte Pipeline-Orchestrierung.
 
 ---
 
@@ -19,7 +19,7 @@ Das System erzeugt tagesaktuelle Marktdaten für definierte Zielrollen, struktur
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## 🏗️ 1. Tech Stack & Architecture
 
 * **Data Engineering & Automation:** Python (`Pandas`), Windows Task Scheduler, Batch Scripting (`run_radar.bat`)
 * **Artificial Intelligence:** OpenAI API (`gpt-4o-mini` mit strukturiertem JSON-Output)
@@ -28,36 +28,36 @@ Das System erzeugt tagesaktuelle Marktdaten für definierte Zielrollen, struktur
 
 ---
 
-## ⚙️ Architektur & Funktionsweise (Der Pipeline-Flow)
+## ⚙️ 2. Architektur & Funktionsweise (Der Pipeline-Flow)
 
-1. **Automated Trigger & Execution:** Ein täglicher Windows-Task stößt ein modulares Python-Skript an (`ai_job_full_auto.py`) via Batch-Steuerung[cite: 10].
-2. **AI-Driven Data Extraction & Structuring:** Das System generiert und strukturiert tagesaktuelle Marktdaten für vier Kernrollen (*Business Analyst, Requirements Engineer, BI Consultant, Process Automation Specialist*)[cite: 10]. Über einen optimierten Prompt strukturiert die KI präzise Attribute wie Seniorität, Arbeitsmodell und granulare Skill-Kategorien[cite: 10].
-3. **Data Integrity & Storage Management:** Um eine stabile Datenhistorie zu gewährleisten, prüft das Skript bestehende Bestände auf Duplikate, steuert IDs fortlaufend (`JOB-001`, `JOB-002` usw.) und schreibt die Daten sicher in ein relationales Sternschema, ohne Zeilenkorruption zu riskieren[cite: 10].
-4. **BI Integration:** Power BI liest die normalisierten Tabellen ein und visualisiert Skill-Trends, Technologieschwerpunkte und Rollen-Profile über dynamische Kennzahlen[cite: 10].
-
----
-
-## 🔄 Projekt-Evolution & Architektur-Entscheidung
-
-### 🚫 1. Die Ausgangslage: Der semi-automatisierte API-Ansatz
-In der ersten Projektphase sollte die Pipeline vollautomatisch über die öffentliche Schnittstelle der Bundesagentur für Arbeit tagesaktuelle Stellenanzeigen für die Zielrollen abrufen[cite: 11].
-* **Das Problem:** Große Jobbörsen-Plattformen sichern ihre Systeme durch strenge Web Application Firewalls ab. Selbst mit vollständig simulierten Browser-Headern wurden die automatisierten Abfragen rigoram mit einem `403 Forbidden`-Statuscode blockiert[cite: 11].
-
-### 💡 2. Der architektonische Pivot: Synthetische Datengenerierung
-Anstatt an einem fehleranfälligen Scraping-Workflow festzuhalten, wurde die Architektur grundlegend optimiert, um echte, fehlerfreie Automatisierung zu garantieren[cite: 11].
-* **Lösung:** Implementierung eines hybriden, KI-gestützten Generierungs- und Fallback-Moduls über die OpenAI API (`gpt-4o-mini`) auf Basis realer Marktparameter[cite: 11].
-* **Mehrwert[cite: 11]:**
-  * **100%ige Pipeline-Stabilität:** Externe Ausfallrisiken und Firewall-Blockaden wurden eliminiert[cite: 11].
-  * **Perfekte Datenkonsistenz:** Datensätze entsprechen exakt den Anforderungen des Sternschemas (`dim_jobs` und `fact_skills`)[cite: 11].
-  * **Echte "Zero-Touch"-Automatisierung:** Kontinuierliche Bereitstellung sauberer Daten für das Power BI Dashboard ohne manuellen Eingriff[cite: 11].
+1. **Automated Trigger & Execution:** Ein täglicher Windows-Task stößt ein modulares Python-Skript an (`ai_job_full_auto.py`) via Batch-Steuerung.
+2. **AI-Driven Data Extraction & Structuring:** Das System generiert und strukturiert tagesaktuelle Marktdaten für vier Kernrollen (*Business Analyst, Requirements Engineer, BI Consultant, Process Automation Specialist*). Über einen optimierten Prompt strukturiert die KI präzise Attribute wie Seniorität, Arbeitsmodell und granulare Skill-Kategorien.
+3. **Data Integrity & Storage Management:** Um eine stabile Datenhistorie zu gewährleisten, prüft das Skript bestehende Bestände auf Duplikate, steuert IDs fortlaufend (`JOB-001`, `JOB-002` usw.) und schreibt die Daten sicher in ein relationales Sternschema, ohne Zeilenkorruption zu riskieren.
+4. **BI Integration:** Power BI liest die normalisierten Tabellen ein und visualisiert Skill-Trends, Technologieschwerpunkte und Rollen-Profile über dynamische Kennzahlen.
 
 ---
 
-## 📈 Business Value & Impact
+## 🔄 3. Projekt-Evolution & Architektur-Entscheidung
 
-* **Vollautomatisierung:** Reduzierung des manuellen Aufdatierungsaufwands von Stunden auf 0 Minuten (True "Zero-Touch" Pipeline)[cite: 12].
-* **Markttransparenz:** Ermöglicht datenbasierte Entscheidungen für die eigene Upskilling-Strategie und passgenaue Bewerbungsvorbereitung[cite: 12].
-* **Portfolio-Reife:** Demonstration fundierter Kenntnisse in Data Engineering, API-Handling, Resilienz-Management, Prompt Engineering, Datenmodellierung und Dashboarding[cite: 12].
+### 🚫 Die Ausgangslage: Der semi-automatisierte API-Ansatz
+In der ersten Projektphase sollte die Pipeline vollautomatisch über die öffentliche Schnittstelle der Bundesagentur für Arbeit tagesaktuelle Stellenanzeigen für die Zielrollen abrufen.
+* **Das Problem:** Große Jobbörsen-Plattformen sichern ihre Systeme durch strenge Web Application Firewalls ab. Selbst mit vollständig simulierten Browser-Headern wurden die automatisierten Abfragen rigoros mit einem `403 Forbidden`-Statuscode blockiert.
+
+### 💡 Der architektonische Pivot: Synthetische Datengenerierung
+Anstatt an einem fehleranfälligen Scraping-Workflow festzuhalten, wurde die Architektur grundlegend optimiert, um echte, fehlerfreie Automatisierung zu garantieren.
+* **Lösung:** Implementierung eines hybriden, KI-gestützten Generierungs- und Fallback-Moduls über die OpenAI API (`gpt-4o-mini`) auf Basis realer Marktparameter.
+* **Mehrwert:**
+  * **100%ige Pipeline-Stabilität:** Externe Ausfallrisiken und Firewall-Blockaden wurden eliminiert.
+  * **Perfekte Datenkonsistenz:** Datensätze entsprechen exakt den Anforderungen des Sternschemas (`dim_jobs` und `fact_skills`).
+  * **Echte "Zero-Touch"-Automatisierung:** Kontinuierliche Bereitstellung sauberer Daten für das Power BI Dashboard ohne manuellen Eingriff.
+
+---
+
+## 📈 4. Business Value & Impact
+
+* **Vollautomatisierung:** Reduzierung des manuellen Aufdatierungsaufwands von Stunden auf 0 Minuten (True "Zero-Touch" Pipeline).
+* **Markttransparenz:** Ermöglicht datenbasierte Entscheidungen für die eigene Upskilling-Strategie und passgenaue Bewerbungsvorbereitung.
+* **Portfolio-Reife:** Demonstration fundierter Kenntnisse in Data Engineering, API-Handling, Resilienz-Management, Prompt Engineering, Datenmodellierung und Dashboarding.
 
 ---
 
@@ -70,12 +70,12 @@ Anstatt an einem fehleranfälligen Scraping-Workflow festzuhalten, wurde die Arc
 ## 📂 Repository-Struktur
 
 ```text
-├── ai_job_full_auto.py         # Main Automation Pipeline Script
-├── ai_job_scraper.py           # Historical API Extraction Script
-├── Skill_Radar.pbix            # Power BI Data Model & Dashboard
-├── dim_jobs.csv                # Dimension Table (Job Listings & Metadata)
-├── fact_skills.csv             # Fact Table (Extracted Skills & Categories)
-├── run_radar.bat               # Windows Task Scheduler Execution Batch
+├── ai_job_full_auto.py         # Haupt-Automations-Skript
+├── ai_job_scraper.py           # Historisches API-Extraktions-Skript
+├── Skill_Radar.pbix            # Power BI Datenmodell & Dashboard
+├── dim_jobs.csv                # Dimensionstabelle (Stellenanzeigen & Metadaten)
+├── fact_skills.csv             # Faktentabelle (Extrahiertes Skill-Mapping)
+├── run_radar.bat               # Windows Task Scheduler Batch-Datei
 ├── dashboard.png               # Power BI Dashboard Visual Asset
-├── python-script-terminal-output.png # Console Log Asset
+├── python-script-terminal-output.png # Konsolen-Log Visual Asset
 └── README.md                   # Projektdokumentation
